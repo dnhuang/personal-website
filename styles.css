@@ -1,0 +1,53 @@
+:root {
+    --header-color: #394150;
+    --body-color: #4D5562;
+    --background-color: #EDF0F3;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--body-color);
+    background-color: var(--background-color);
+
+}
+
+h1 {
+    color: var(--header-color);
+    text-align: center;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* LANDING PAGE SECTION */
+.landing-page {
+    margin: 0rem 3rem
+}
+
+.landing-page-name {
+    color: #4b55dd
+}
+
+.bio-link {
+    text-decoration: none;
+}
+
+/* ABOUT SECTION */
